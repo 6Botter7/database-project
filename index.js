@@ -1,4 +1,4 @@
-class Index {
+class ViewModel {
     constructor() {
         console.log('Index');
     }
@@ -7,3 +7,5 @@ class Index {
         console.log('Index connectedCallback');
     }
 }
+
+globalThis.viewModel = new ViewModel();
